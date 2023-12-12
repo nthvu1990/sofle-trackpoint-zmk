@@ -1,4 +1,4 @@
-anifest:
+manifest:
   remotes:
     - name: urob
       url-base: https://github.com/urob
