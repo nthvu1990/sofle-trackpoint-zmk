@@ -1,4 +1,3 @@
-manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
@@ -6,8 +5,10 @@ manifest:
       url-base: https://github.com/infused-kim
   projects:
     - name: zmk
+      remote: zmkfirmware
+      revision: main
       remote: infused-kim
-      revision: pr-testing/mouse_ps2
+      revision: sofle
       import: app/west.yml
   self:
     path: config
